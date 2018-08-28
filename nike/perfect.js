@@ -7,6 +7,7 @@ const {mongoose} = require('./../live/monggose.js');
 const bodyparser = require('body-parser');
 const {Rom} = require('./../pole/entire.js');
 var app = express();
+const port = process.env.PORT || 3000;
 app.use(bodyparser.json());
 app.post('/todo',(req,res) =>
 {
@@ -63,7 +64,7 @@ app.get('/todo/:id',(req,res) =>
 }).catch(e) => res.send(e);
 })*/
 
-app.listen(3000,() =>
+app.listen(port,() =>
 {
   console.log("odu");
 })
