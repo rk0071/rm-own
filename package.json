@@ -7,9 +7,14 @@
     "start": "node ./nike/perfect.js"
 
   },
+  "engines" :
+  {
+    "node" : "8.11.3"
+  }
   "keywords": [
     "fer"
   ],
+
   "author": "cs",
   "license": "ISC",
   "dependencies": {

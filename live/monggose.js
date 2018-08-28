@@ -1,2 +1,3 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/long');
+mongoose.connect('process.env.MONGODB_URI || mongodb://localhost:27017/long');
+modules.exports = {mongoose};
