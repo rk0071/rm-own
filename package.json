@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node /nike perfect.js",
+    "start": "node /nike/perfect.js",
     "test": "mocha  **/clever/*.test.js"
   },
   "keywords": [
