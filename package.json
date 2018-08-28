@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node /nike/perfect.js",
-    "test": "mocha  **/clever/*.test.js"
+    "start": "node ./nike/perfect.js"
+
   },
   "keywords": [
     "fer"
